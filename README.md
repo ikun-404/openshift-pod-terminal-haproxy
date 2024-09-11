@@ -4,7 +4,6 @@ Install OpenShift on CRC, proxy the k8s API server through HAProxy, and connect 
 # Install
 pip install fastapi pydantic "uvicorn[standard]" kubernetes==25.3.0 Jinja2
 
-
 # Usage
 ```
 pip install requirements.txt
