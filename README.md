@@ -16,3 +16,7 @@ I am using haproxy proxy 6443, API port. If the websocket automatically disconne
 timeout client
 timeout server
 ```
+
+reference resources:
+https://github.com/yuanleyou/kubeshell-backend/tree/master
+
