@@ -13,8 +13,8 @@ config.load_kube_config(config_file="/root/openshift-client/openshift-requests-c
 ```
 I am using haproxy proxy 6443, API port. If the websocket automatically disconnects within 1 minute, I need to increase the following two parameters
 ```
-timeout client
-timeout server
+timeout client 5m
+timeout server 5m
 ```
 
 reference resources:
