@@ -1,9 +1,3 @@
-#! /usr/bin/python3
-# -*- coding:utf-8 -*-
-# @File:main.py
-# @Author:zhou jianhang
-# @Time:2024/08/22 10:32:31
-
 from fastapi import FastAPI
 import uvicorn
 from api.urls import app_url
