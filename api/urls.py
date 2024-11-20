@@ -1,10 +1,3 @@
-#! /usr/bin/python3
-# -*- coding:utf-8 -*-
-# @File:urls.py
-# @Author:zhou jianhang
-# @Time:2024/08/22 10:36:19
-
-
 from fastapi import APIRouter, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.responses import ORJSONResponse, HTMLResponse
 from fastapi.requests import Request
